@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.navbrand 
+{
+    color: #fff;
+    font-size: 30px;
+}
+.head
+{  margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.subhead
+{
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+   font-weight: bold;
+}
+.container .jumbotron
+{
+    padding-top:15px;
+    background-color: #808080;
+}
+div ul li a{
+    width: 100%;
+    text-align: center;
+}
+
+.text
+{
+    color:#000000;
+    font-size: 20px;
+    font-weight: 40px;
+}
+.show{
+    display: none;
+}
+@media (max-width:768px){
+    .show
+    {
+        display: block;
+    }
+}
